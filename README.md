@@ -8,15 +8,21 @@ Es un programa que permite generar codigos QR para dircciones url de sitios webs
 
 ## Instalación
 
-En la consola, se ubica en la carpeta del proyecto, en la carpeta dist, dónde se encuentra el ejecutable.
+Una vez descargado el proyecto, en la consola, se ubica en la carpeta del proyecto, en la carpeta dist, dónde se encuentra el ejecutable.
 
 ## Comando
+```sh
 java -jar NombreApp.jar
+```
 
 ## Pasos de Instalación y uso
-* Instalación
-una vez descargado el proyecto, en la consola de comandos nos ubicamos en la carpeta dist y utilizamos el comando
+* Instalación 
+
+Una vez descargado el proyecto, en la consola de comandos nos ubicamos en la carpeta dist y utilizamos el comando
+
+```sh
 java -jar NombreApp.jar
+```
 
 Esto iniciará el programa y hará que aparezca el menú con las diferentes opciones.
 
@@ -28,16 +34,17 @@ Una vez ejecutado el comando se mostrará un menú con diferentes opciones:
 * Salir
 
 Donde: 
-* #### Iniciar Sesión: Se iniciará sesión con el usuario previamente registrado en el aplicativo
-* #### Registrarse: Se registra un nuevo un nuevo usuario en la base de datos, ingresando un nombre, email, username y password
-* #### Salir: Cerrará el programa
+- **_Iniciar Sesión:_** Se iniciará sesión con el usuario previamente registrado en el aplicativo
+- **_Registrarse:_** Se registra un nuevo un nuevo usuario en la base de datos, ingresando un nombre, email, username y password
+- **_Salir:_** Cerrará el programa
 
 Al iniciar sesión correctamente aparecerá un nuevo menú:
-* #### Generar codigo QR colocando la url 
-* #### Verificar historial de QR generados 
-* #### cerrar sesión
+- **_Generar codigo QR colocando la url_**
+- **_Verificar historial de QR generados_** 
+- **_Cerrar sesión_**
 
-Donde: 
-* #### Generar código QR: se ingresa la url a convertir en imagen base64
-* #### Ver historial: se visualiza el historial de Qr que se han generado
-* #### Cerrar Sesión: Cerrará sesión del programa
+Donde:
+- **_Generar código QR:_** se ingresa la url a convertir en imagen base64
+- **_Verificar historial:_** se visualiza el historial de Qr en formato imagen base64 que se han generado
+- **_Cerrar Sesión:_** Cerrará sesión del programa
+
